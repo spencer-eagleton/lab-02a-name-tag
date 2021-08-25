@@ -51,6 +51,16 @@ table {
 	border-spacing: 0;
 }
 
+label {
+    font-family: sans-serif;
+}
+
+.input{
+    width: 300px;
+    margin: 20px auto;
+                             
+}
+
 .paper {
     background: lightgray;
     padding: 10px;

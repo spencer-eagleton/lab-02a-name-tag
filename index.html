@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section class="inputs">
+        <input id="name-input">
+        <button id="update-button">Update</button>
+    </section>
     <div class="paper">
-        <div class="backing">
+        <div class="backing" id="backing">
             <div class="h1">
                 <h1>HELLO</h1>
             </div>
@@ -17,12 +21,26 @@
                 <h2>my name is</h2>
             </div>
             <div class="p">
-                <p>Steven Universe</p>
+                <p>
+                    <em id="name" class="name">Steven Universe</em>
+                </p>
             </div>
             
             
         </div>
     </div> 
+    <section>
+        <label for="change-color">Change Sticker Color:</label>
+        <select name="colors" id="change-color">~Please select a color~
+            <option value="orange">Orange</option>
+            <option value="green">Green</option>
+            <option value="gold">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+        </select>
+        
+    </section>
+    <script src="app.js" type="module"></script>
 </body>
    
         
